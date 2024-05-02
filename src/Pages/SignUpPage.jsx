@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useNavigate } from "react-router";
+import { NavLink } from "react-router-dom";
 
 const SignUpPage = () => {
   let navigate = useNavigate();
@@ -140,12 +142,12 @@ const SignUpPage = () => {
             value={formData.zipcode}
             className="input input-bordered w-full bg-inherit"
           />
-          <button
-            type="submit"
-            className="btn btn-primary font-bold hover:bg-[#f0dca6] hover:text-black px-4 py-2 rounded-lg "
+          <NavLink
+            className="btn btn-primary font-bold hover:bg-[#f0dca6] hover:text-black px-4 py-2 rounded-lg text-center"
+            to={"/"}
           >
             Sign Up
-          </button>
+          </NavLink>
         </form>
       </div>
     </div>

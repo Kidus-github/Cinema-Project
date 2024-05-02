@@ -12,12 +12,12 @@ function Header() {
         <Nav />
       </div>
       <div className="text-nowrap px-4 flex items-center">
-        <div
+        <NavLink
           to={"/signup"}
           className="cursor-pointer hover:bg-[#f0dca6] hover:text-black hover:font-bold px-2 py-1 rounded-lg ease-in-out"
         >
           Sign Up
-        </div>
+        </NavLink>
         <pre> / </pre>
         <div
           to={"/login"}

@@ -1,280 +1,177 @@
 // import "../css/animate.css";
-import "../css/bootstrap.css";
-
-import "../css/magnific-popup.css";
-// import "../css/responsive.css";
-import "../css/style.css";
 function TicketPage() {
   return (
-    <div className="relative top-[100px]  ">
-      <div className="px-10">
-        <div id="section-pricing">
-          <h2 className="text-white text-center text-3xl">Ticket Pricing</h2>
-        </div>
-        <div className="container">
-          <div className="fancy-title title-border text-black">
-            <h3>Gold Tickets </h3>
+    <div className="relative top-[100px] ">
+      <div className="px-8 flex flex-col gap-16">
+        <h1 className="uppercase text-center font-bold text-3xl">
+          Ticket pricing
+        </h1>
+        <div className="">
+          <h1 className="font-bold text-lg mb-10">Gold Tickets</h1>
+          <div className="bg-[#f0dca6] w-fit h-[150px] flex flex-col justify-between rounded-lg text-black">
+            <div className="px-[25px] py-4">
+              <div>
+                <h2 className="uppercase font-bold text-md text-center">
+                  Weekdays and weekend
+                </h2>
+              </div>
+              <div className="flex justify-center">
+                <span>ETB</span>
+                <h3 className="text-3xl">500</h3>
+              </div>
+            </div>
+            <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg ">
+              Book
+            </button>
           </div>
-          <div className="row pricing bottommargin clearfix px-14">
-            <div className="col-lg-4" data-animate="fadeInLeft">
-              <div className="pricing-box ">
-                <div className="pricing-title">
-                  <h3>Weekdays and Weekend </h3>
+        </div>
+        <div>
+          <div className="">
+            <h1 className="font-bold text-lg mb-10">3D Movies</h1>
+            <div className="flex justify-between w-full flex-wrap items-center">
+              <div className="bg-[#f0dca6] w-fit h-[180px] flex flex-col justify-between rounded-lg text-black w-96 mb-4">
+                <div className="px-[25px] py-4">
+                  <div>
+                    <h2 className="uppercase font-bold text-md text-center">
+                      Standard
+                    </h2>
+                  </div>
+                  <div className="flex justify-center">
+                    <span>ETB</span>
+                    <h3 className="text-3xl">500</h3>
+                  </div>
                 </div>
-                <div className="pricing-price">
-                  <span className="price-unit">ETB</span>500
-                  <span className="price-tenure"></span>
+                <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg  ">
+                  Book
+                </button>
+              </div>
+              <div className="bg-[#f0dca6] w-fit h-[180px] flex flex-col justify-between rounded-lg text-black w-96 mb-4">
+                <div className="px-[25px] py-4">
+                  <div>
+                    <h2 className="uppercase font-bold text-md text-center">
+                      Delux
+                    </h2>
+                  </div>
+                  <div className="flex justify-center">
+                    <span>ETB</span>
+                    <h3 className="text-3xl">500</h3>
+                  </div>
                 </div>
-                <div className="pricing-action">
-                  <a href="#" className="btn btn-danger btn-block btn-lg">
-                    Book
-                  </a>
+                <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg">
+                  Book
+                </button>
+              </div>
+              <div className="bg-[#f0dca6] w-fit h-[180px] flex flex-col justify-between rounded-lg text-black w-96 mb-4">
+                <div className="px-[25px] py-4">
+                  <div>
+                    <h2 className="uppercase font-bold text-md text-center">
+                      VIP
+                    </h2>
+                  </div>
+                  <div className="flex justify-center">
+                    <span>ETB</span>
+                    <h3 className="text-3xl">500</h3>
+                  </div>
                 </div>
+                <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg">
+                  Book
+                </button>
+              </div>
+              <div className="bg-[#f0dca6] w-fit h-[180px] flex flex-col justify-between rounded-lg text-black w-96 mb-4">
+                <div className="px-[25px] py-4">
+                  <div>
+                    <h2 className="uppercase font-bold text-md text-center">
+                      Standard
+                    </h2>
+                  </div>
+                  <div className="flex justify-center">
+                    <span>ETB</span>
+                    <h3 className="text-3xl">500</h3>
+                  </div>
+                </div>
+                <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg  ">
+                  Book
+                </button>
+              </div>
+              <div className="bg-[#f0dca6] w-fit h-[180px] flex flex-col justify-between rounded-lg text-black w-96 mb-4">
+                <div className="px-[25px] py-4">
+                  <div>
+                    <h2 className="uppercase font-bold text-md text-center">
+                      Delux
+                    </h2>
+                  </div>
+                  <div className="flex justify-center">
+                    <span>ETB</span>
+                    <h3 className="text-3xl">500</h3>
+                  </div>
+                </div>
+                <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg">
+                  Book
+                </button>
+              </div>
+              <div className="bg-[#f0dca6] w-fit h-[180px] flex flex-col justify-between rounded-lg text-black w-96 mb-4">
+                <div className="px-[25px] py-4">
+                  <div>
+                    <h2 className="uppercase font-bold text-md text-center">
+                      VIP
+                    </h2>
+                  </div>
+                  <div className="flex justify-center">
+                    <span>ETB</span>
+                    <h3 className="text-3xl">500</h3>
+                  </div>
+                </div>
+                <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg">
+                  Book
+                </button>
               </div>
             </div>
           </div>
         </div>
-
-        <div className="fancy-title title-border text-black">
-          <h3>3D Movies </h3>
-        </div>
-        <div className="row pricing bottommargin clearfix px-14">
-          <div className="col-lg-4" data-animate="fadeInLeft">
-            <div className="pricing-box">
-              <div className="pricing-title">
-                <h3>Standard</h3>
-                <span>Weekdays</span>
+        <div className="">
+          <h1 className="font-bold text-lg mb-10">Gold Tickets</h1>
+          <div className="bg-[#f0dca6] w-fit h-[150px] flex flex-col justify-between rounded-lg text-black">
+            <div className="px-[25px] py-4">
+              <div>
+                <h2 className="uppercase font-bold text-md text-center">
+                  Weekdays and weekend
+                </h2>
               </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>250
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a href="#" className="btn btn-danger btn-block btn-lg">
-                  Book
-                </a>
+              <div className="flex justify-center">
+                <span>ETB</span>
+                <h3 className="text-3xl">500</h3>
               </div>
             </div>
-          </div>
-
-          <div className="col-lg-4" data-animate="fadeInDown" data-delay="250">
-            <div className="pricing-box best-price">
-              <div className="pricing-title">
-                <h3>Deluxe</h3>
-                <span>Weekdays</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>260
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a
-                  href="#"
-                  className="btn btn-danger btn-block btn-lg bgcolor border-color"
-                >
-                  Book
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4" data-animate="fadeInUp" data-delay="500">
-            <div className="pricing-box">
-              <div className="pricing-title">
-                <h3>VIP</h3>
-                <span>Weekdays</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>400
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a href="#" className="btn btn-danger btn-block btn-lg">
-                  Book
-                </a>
-              </div>
-            </div>
+            <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg">
+              Book
+            </button>
           </div>
         </div>
-        <div className="row pricing bottommargin clearfix px-14">
-          <div className="col-lg-4" data-animate="fadeInLeft">
-            <div className="pricing-box">
-              <div className="pricing-title">
-                <h3>Standard</h3>
-                <span>Weekend</span>
+        <div className="">
+          <h1 className="font-bold text-lg mb-10">Gold Tickets</h1>
+          <div className="bg-[#f0dca6] w-fit h-[150px] flex flex-col justify-between rounded-lg text-black">
+            <div className="px-[25px] py-4">
+              <div>
+                <h2 className="uppercase font-bold text-md text-center">
+                  Weekdays and weekend
+                </h2>
               </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>250
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a href="#" className="btn btn-danger btn-block btn-lg">
-                  Book
-                </a>
+              <div className="flex justify-center">
+                <span>ETB</span>
+                <h3 className="text-3xl">500</h3>
               </div>
             </div>
-          </div>
-
-          <div className="col-lg-4" data-animate="fadeInDown" data-delay="250">
-            <div className="pricing-box best-price">
-              <div className="pricing-title">
-                <h3>Deluxe</h3>
-                <span>Weekend</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>260
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a
-                  href="#"
-                  className="btn btn-danger btn-block btn-lg bgcolor border-color"
-                >
-                  Book
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4" data-animate="fadeInUp" data-delay="500">
-            <div className="pricing-box">
-              <div className="pricing-title">
-                <h3>VIP</h3>
-                <span>Weekday</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>400
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a href="#" className="btn btn-danger btn-block btn-lg">
-                  Book
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="fancy-title title-border text-black">
-          <h3>2D Movies </h3>
-        </div>
-        <div className="row pricing bottommargin clearfix px-14">
-          <div className="col-lg-4" data-animate="fadeInLeft">
-            <div className="pricing-box">
-              <div className="pricing-title">
-                <h3>Standard</h3>
-                <span>Weekdays</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>200
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a href="#" className="btn btn-danger btn-block btn-lg">
-                  Book
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4" data-animate="fadeInDown" data-delay="250">
-            <div className="pricing-box best-price">
-              <div className="pricing-title">
-                <h3>Deluxe</h3>
-                <span>Weekdays</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>210
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a
-                  href="#"
-                  className="btn btn-danger btn-block btn-lg bgcolor border-color"
-                >
-                  Book
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4" data-animate="fadeInUp" data-delay="500">
-            <div className="pricing-box">
-              <div className="pricing-title">
-                <h3>VIP</h3>
-                <span>Weekdays</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>400
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a href="#" className="btn btn-danger btn-block btn-lg">
-                  Book
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row pricing bottommargin clearfix px-14">
-          <div className="col-lg-4" data-animate="fadeInLeft">
-            <div className="pricing-box">
-              <div className="pricing-title">
-                <h3>Standard</h3>
-                <span>Weekend</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>200
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a href="#" className="btn btn-danger btn-block btn-lg">
-                  Book
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4" data-animate="fadeInDown" data-delay="250">
-            <div className="pricing-box best-price">
-              <div className="pricing-title">
-                <h3>Deluxe</h3>
-                <span>Weekend</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>210
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a
-                  href="#"
-                  className="btn btn-danger btn-block btn-lg bgcolor border-color"
-                >
-                  Book
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4" data-animate="fadeInUp" data-delay="500">
-            <div className="pricing-box">
-              <div className="pricing-title">
-                <h3>VIP</h3>
-                <span>Weekday</span>
-              </div>
-              <div className="pricing-price">
-                <span className="price-unit">ETB</span>400
-                <span className="price-tenure"></span>
-              </div>
-              <div className="pricing-action">
-                <a href="#" className="btn btn-danger btn-block btn-lg">
-                  Book
-                </a>
-              </div>
-            </div>
+            <button className="bg-red-600 w-full py-2 font-bold rounded-b-lg">
+              Book
+            </button>
           </div>
         </div>
       </div>
-      <footer id="footer" className="bg-gray-700 text-black">
+      <footer
+        id="footer"
+        className="bg-gray-500 py-20 
+       mt-10"
+      >
         <div id="copyrights">
           <div className="container clearfix">
             <div className="col_half">
@@ -295,7 +192,7 @@ function TicketPage() {
                   <i className="icon-twitter"></i>
                 </a>
               </div>
-              Copyrights &copy; 2019 All Rights Reserved
+              Copyrights &copy; 2024 All Rights Reserved
             </div>
 
             <div className="col_half col_last tright">
