@@ -136,151 +136,12 @@ li {
   padding: 0;
 }
 
-.clear {
-  clear: both;
-  display: block;
-  font-size: 0px;
-  height: 0px;
-  line-height: 0;
-  width: 100%;
-  overflow: hidden;
-}
-
-::selection {
-  background: #1abc9c;
-  color: #fff;
-  text-shadow: none;
-}
-
-::-moz-selection {
-  background: #1abc9c; /* Firefox */
-  color: #fff;
-  text-shadow: none;
-}
-
-::-webkit-selection {
-  background: #1abc9c; /* Safari */
-  color: #fff;
-  text-shadow: none;
-}
-
-:active,
-:focus {
-  outline: none !important;
-}
-
-/* ----------------------------------------------------------------
-	Typography
------------------------------------------------------------------*/
-
-body {
-  line-height: 1.5;
-  color: #555;
-  font-family: "Lato", sans-serif;
-}
-
-a {
-  text-decoration: none !important;
-  color: #1abc9c;
-}
-
-a:hover {
-  color: #222;
-}
-
-a img {
-  border: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-iframe {
-  border: none !important;
-}
 
 /* ----------------------------------------------------------------
 	Basic Layout Styles
 -----------------------------------------------------------------*/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #444;
-  font-weight: 600;
-  line-height: 1.5;
-  margin: 0 0 30px 0;
-  font-family: "Raleway", sans-serif;
-}
 
-h5,
-h6 {
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 18px;
-}
-
-h5 {
-  font-size: 14px;
-}
-
-h6 {
-  font-size: 12px;
-}
-
-h4 {
-  font-weight: 600;
-}
-
-h5,
-h6 {
-  font-weight: bold;
-}
-
-h1 > span:not(.nocolor):not(.badge),
-h2 > span:not(.nocolor):not(.badge),
-h3 > span:not(.nocolor):not(.badge),
-h4 > span:not(.nocolor):not(.badge),
-h5 > span:not(.nocolor):not(.badge),
-h6 > span:not(.nocolor):not(.badge) {
-  color: #1abc9c;
-}
-
-p,
-pre,
-ul,
-ol,
-dl,
-dd,
-blockquote,
-address,
-table,
-fieldset,
-form {
-  margin-bottom: 30px;
-}
-
-small {
-  font-family: "Lato", sans-serif;
-}
 
 /* ----------------------------------------------------------------
 	Helper Classes
@@ -4039,7 +3900,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #333;
+
   font-size: 28px;
   text-transform: uppercase;
 }
@@ -4091,10 +3952,6 @@ body.stretched .container-fullwidth .breadcrumb {
   background-color: #333;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15) !important;
   border-bottom: none;
-}
-
-#page-title.page-title-dark h1 {
-  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 #page-title.page-title-dark span {
@@ -4197,7 +4054,6 @@ body.stretched .container-fullwidth .breadcrumb {
 #page-title.page-title-mini h1 {
   font-weight: 600;
   font-size: 18px;
-  color: #444;
 }
 
 #page-title.page-title-mini span {

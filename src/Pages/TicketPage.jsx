@@ -1,10 +1,8 @@
-import "../css/animate.css";
+// import "../css/animate.css";
 import "../css/bootstrap.css";
-import "../css/calendar.css";
-import "../css/dark.css";
-import "../css/font-icons.css";
+
 import "../css/magnific-popup.css";
-import "../css/responsive.css";
+// import "../css/responsive.css";
 import "../css/style.css";
 function TicketPage() {
   return (
@@ -14,7 +12,7 @@ function TicketPage() {
           <h2 className="text-white text-center text-3xl">Ticket Pricing</h2>
         </div>
         <div className="container">
-          <div className="fancy-title title-border">
+          <div className="fancy-title title-border text-black">
             <h3>Gold Tickets </h3>
           </div>
           <div className="row pricing bottommargin clearfix px-14">
@@ -37,7 +35,7 @@ function TicketPage() {
           </div>
         </div>
 
-        <div className="fancy-title title-border">
+        <div className="fancy-title title-border text-black">
           <h3>3D Movies </h3>
         </div>
         <div className="row pricing bottommargin clearfix px-14">
@@ -156,7 +154,7 @@ function TicketPage() {
             </div>
           </div>
         </div>
-        <div className="fancy-title title-border">
+        <div className="fancy-title title-border text-black">
           <h3>2D Movies </h3>
         </div>
         <div className="row pricing bottommargin clearfix px-14">
@@ -276,7 +274,7 @@ function TicketPage() {
           </div>
         </div>
       </div>
-      <footer id="footer" className="dark">
+      <footer id="footer" className="bg-gray-700 text-black">
         <div id="copyrights">
           <div className="container clearfix">
             <div className="col_half">
