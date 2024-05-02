@@ -1,18 +1,28 @@
+import { NavLink } from "react-router-dom";
 function Nav() {
   return (
     <div className="flex gap-6 px-5">
-      <div className="cursor-pointer hover:text-[#f0dca6] font-semibold px-2 py-1 ease-in-out">
+      <NavLink
+        to={"/movies"}
+        className="cursor-pointer hover:text-[#f0dca6] font-semibold px-2 py-1 ease-in-out"
+      >
         Movies
-      </div>
-      <div className="cursor-pointer hover:text-[#f0dca6] font-semibold px-2 py-1 ease-in-out">
+      </NavLink>
+      <NavLink className="cursor-pointer hover:text-[#f0dca6] font-semibold px-2 py-1 ease-in-out">
         Foods And Drinks
-      </div>
-      <div className="cursor-pointer hover:text-[#f0dca6] font-semibold px-2 py-1 ease-in-out">
+      </NavLink>
+      <NavLink
+        to={"/ticket"}
+        className="cursor-pointer hover:text-[#f0dca6] font-semibold px-2 py-1 ease-in-out"
+      >
         Ticket
-      </div>
-      <div className="cursor-pointer hover:text-[#f0dca6] font-semibold px-2 py-1 ease-in-out">
+      </NavLink>
+      <NavLink
+        to={"/"}
+        className="cursor-pointer hover:text-[#f0dca6] font-semibold px-2 py-1 ease-in-out"
+      >
         Schedule
-      </div>
+      </NavLink>
     </div>
   );
 }

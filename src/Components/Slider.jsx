@@ -51,7 +51,7 @@ function Slider() {
     else setCurrent(current + 1);
   }
   return (
-    <div className="h-fit flex justify-center overflow-hidden relative">
+    <div className="h-fit flex justify-center overflow-hidden relative text-white ">
       <ul
         className={`h-full relative flex transition ease-in-outout duration-700`}
         style={{ transform: `translateX(-${current * 100}%)` }}

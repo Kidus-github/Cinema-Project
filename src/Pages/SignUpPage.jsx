@@ -1,7 +1,7 @@
 import { useState } from "react";
-import axios from "axios";
 
 const SignUpPage = () => {
+  let navigate = useNavigate();
   const [formData, setFormData] = useState({
     userId: "",
     userName: "",
@@ -33,6 +33,7 @@ const SignUpPage = () => {
       body: JSON.stringify(Data),
     }).then(() => {
       console.log("Created");
+      navigate("/");
     });
 
     if (!response.ok) {
