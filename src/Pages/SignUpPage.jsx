@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { NavLink } from "react-router-dom";
 
 const SignUpPage = () => {
   let navigate = useNavigate();
@@ -35,6 +34,7 @@ const SignUpPage = () => {
       body: JSON.stringify(Data),
     }).then(() => {
       console.log("Created");
+      alert("Signed Up Successfully");
       navigate("/");
     });
 
@@ -120,7 +120,7 @@ const SignUpPage = () => {
           />
           <input
             type="tel"
-            name="phone"
+            name="phoneNumber"
             placeholder="Phone Number"
             onChange={handleChange}
             value={formData.phone}
@@ -128,7 +128,7 @@ const SignUpPage = () => {
           />
           <input
             type="text"
-            name="street"
+            name="streetAddress"
             placeholder="Street Address"
             onChange={handleChange}
             value={formData.street}
@@ -142,12 +142,26 @@ const SignUpPage = () => {
             value={formData.zipcode}
             className="input input-bordered w-full bg-inherit"
           />
-          <NavLink
-            className="btn btn-primary font-bold hover:bg-[#f0dca6] hover:text-black px-4 py-2 rounded-lg text-center"
-            to={"/"}
+          <input
+            type="text"
+            name="city"
+            placeholder="Last Name"
+            onChange={handleChange}
+            value={formData.city}
+            className="input input-bordered w-full bg-inherit active:bg-transparent hover:bg-transparent"
+          />
+
+          <button
+            type="submit"
+            className="btn btn-primary font-bold
+            hover:bg-[#f0dca6] hover:text-black px-4 py-2 rounded-lg "
+            onClick={() => {
+              handleSubmit();
+              // navigate("/");
+            }}
           >
             Sign Up
-          </NavLink>
+          </button>
         </form>
       </div>
     </div>

@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 function GetTicketPage({ rows, columns }) {
   const params = useParams();
   const { id } = params;
-  const userId = "6631a8b10a04c13998080909";
+  const userId = localStorage.getItem("userId");
   // const perId = "663306299578b8ce6cff7c8f";
   const [seats, setSeats] = useState(
     Array.from({ length: rows }, () => new Array(columns).fill(false))
@@ -110,7 +110,12 @@ function GetTicketPage({ rows, columns }) {
           <div className="pb-36">
             <Ticket Ticket={ticket} seat={selectedSeat} price={price} />
             <div className="flex justify-center gap-28 font-bold">
-              <button className="mt-4 px-8 py-2 text-white bg-green-500 rounded hover:bg-green-700">
+              <button
+                className="mt-4 px-8 py-2 text-white bg-green-500 rounded hover:bg-green-700"
+                onClick={() => {
+                  alert("PAYMENT IS SUCCESSFUL");
+                }}
+              >
                 PAY
               </button>
               <button className="mt-4 px-8 py-2 text-black bg-[#f0dca6] rounded hover:bg-[#f0dca6ad]">
